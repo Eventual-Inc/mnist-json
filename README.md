@@ -18,3 +18,11 @@ curl -LO https://github.com/Eventual-Inc/mnist-json/raw/master/mnist_handwritten
 curl -LO https://github.com/Eventual-Inc/mnist-json/raw/master/mnist_handwritten_train.json.gz
 ```
 
+# Trained model
+
+The weights for a model trained using https://github.com/pytorch/examples/blob/main/mnist/main.py on one epoch is available in this repo as well in `mnist_cnn.pt`
+
+```
+curl -LO https://github.com/Eventual-Inc/mnist-json/raw/master/mnist_cnn.pt
+```
+
